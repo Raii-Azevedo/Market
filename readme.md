@@ -1,20 +1,19 @@
-# Bliss
+# The Market
 - PROJECT:
     - Is a application where the script presents to the costumer a menu, to make the cadastration, list of products and the option of buying those products.
-    - Then, the programm must be able to verify if the product is already in ther shopping cart giving the option of changing the quantity of that product
+    - Then, the programm must be able to verify if the product is already in ther shopping cart giving the option of changing the quantity of that product.
     - In the end, it must show the total of aquisitions and the quantity of products inside the shopping cart.
 
 ![Market]()
 
 
 ## Tecnologia
- 
-Aqui estão as tecnologias utilizadas nesse projeto:
+
  - Python
  
 ## Links
  
-  - [Repository] (https://github.com/Raii-Azevedo/Bliss)
+  - [Repository] (https://github.com/Raii-Azevedo/Market)
 
 ## Author
 - RAISSA AZEVEDO
