@@ -144,18 +144,20 @@ def close_order() -> None:
             for data in item.items():
                 print(data[0])
                 print(f'Quantity: {data[1]}')
-                total_value += data[0].price * data[1]
                 print('----------')
-                sleep(0.5)
-            print(f' Your bill is {format_float_to_str_currency(total_value)}')
-            print('\nComeback Soon')
-            shopping_cart.clear()
+                sleep(1)
+                total_value += data[0].price * data[1]  # Mova esta linha para fora do loop interno
+
+        print(f' Your bill is {format_float_to_str_currency(total_value)}')  # Mova esta linha para fora do loop interno
+        print('\nComeback Soon')
+        shopping_cart.clear()
         sleep(4)
         menu()
     else:
        print('There is no products in the cart yet\n') 
     sleep(2)
     menu()
+
 
 def take_product_for_code(code: int) -> Product:
     p: Product = None
